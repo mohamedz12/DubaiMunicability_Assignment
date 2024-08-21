@@ -12,6 +12,11 @@
  
 * There is json test data file named "TestData.json" used as a data store for login creds to the web app
 
+* Code can be run on different browsers with this command through the terminal
+  npx cypress run --browser chrome --headed
+  npx cypress run --browser firefox --headed
+  npx cypress run --browser edge --headed
+  npx cypress run --browser electron --headed
   
 * How can we integrate the framework to Jenkins CI ?
 
